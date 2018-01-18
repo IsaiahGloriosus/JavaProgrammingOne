@@ -1,5 +1,5 @@
 package Chapter4;
-    
+
 import java.util.Scanner;
 
 /**
@@ -8,14 +8,14 @@ import java.util.Scanner;
  * @author Anthony Rodriguez
  */
 public class C4_23 {
-    
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner (System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter employee's first name: ");
         String name = input.nextLine();
         System.out.println("Enter number of hours worked in a week: ");
@@ -26,7 +26,7 @@ public class C4_23 {
         double federaltax = input.nextDouble();
         System.out.println("Enter state tax withholding rate: ");
         double statetax = input.nextDouble();
-        
+
         double grosspay = hours * payrate;
         double deduction1 = grosspay * federaltax;
         double deduction2 = grosspay * statetax;

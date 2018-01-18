@@ -1,5 +1,5 @@
 package Chapter2;
-    
+
 import java.util.Scanner;
 
 /**
@@ -8,10 +8,10 @@ import java.util.Scanner;
  * @author Anthony Rodriguez
  */
 public class C2_5 {
-    
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
     public static void main(String[] args) {

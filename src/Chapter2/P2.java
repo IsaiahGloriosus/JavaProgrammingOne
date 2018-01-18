@@ -1,5 +1,5 @@
 package Chapter2;
-    
+
 import java.util.Scanner;
 
 /**
@@ -8,10 +8,10 @@ import java.util.Scanner;
  * @author Anthony Rodriguez
  */
 public class P2 {
-    
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class P2 {
         double tax = total * 0.10;
         double tip = (total + tax) * 0.15;
         double totalcost = total + tax + tip;
-        System.out.println("The price of food is $" + total + ", the tax is $" 
+        System.out.println("The price of food is $" + total + ", the tax is $"
                 + tax + ", the tip is $" + tip + ", the total cost is $" + totalcost);
     }
 }

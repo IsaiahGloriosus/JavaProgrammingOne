@@ -2,18 +2,18 @@ package Chapter1;
 
 /**
  * Program to display 3 messages: - Welcome to java.
- * 
+ *
  * @author Anthony Rodriguez
  */
 public class C1_1 {
-    
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args){
-	System.out.println("Welcome to Java!");
+    public static void main(String[] args) {
+        System.out.println("Welcome to Java!");
         System.out.println("Welcome to Computer Science");
         System.out.println("Programming is fun");
     }
